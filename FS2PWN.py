@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os, socket,  argparse
 
-print('# FS2PWN v0.2 | Coded by Abdullah AlZahrani https://github.com/0xAbdullah')
+print('# FS2PWN v0.1 | Coded by Abdullah AlZahrani https://github.com/0xAbdullah')
 
 parser = argparse.ArgumentParser(description="[--] First Step to pwn (FS2PWN) is script to automate some task.")
 parser.add_argument('-t', required=True, default=None, help='Set target subnet\n[EX: sf2pwn.py/exe -t 10.10.100.0/24]')
