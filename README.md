@@ -20,21 +20,21 @@ FS2PWN.exe -t 10.10.11.0/24
 [P] RDP 3389 open.
 [P] winRM 5985 open.
 [P] SMB 445 open.
-[H] IP: 10.10.11.3 Hostname: SQL-Server
+[H] IP: 10.10.11.5 Hostname: SQL-Server
 [P] RDP 3389 open.
 [P] winRM 5985 open.
 [P] SMB 445 open.
 [P] MSSQL 1433 open.
-[H] IP: 10.10.11.5 Hostname: Unknown (linux machine)
+[H] IP: 10.10.11.28 Hostname: Unknown (linux machine)
 [P] HTTP 80 open.
 ...   ...   ...   ...
 
 ...   ...   ...   ...
-[H] IP: 10.10.11.10 Hostname: Backup-Server
+[H] IP: 10.10.11.100 Hostname: Backup-Server
 [P] RDP 3389 open.
 [P] winRM 5985 open.
 [P] SMB 445 open.
-[I] I found 10 hosts up!
+[I] I found 8 hosts up!
 
 ```
 
