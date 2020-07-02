@@ -47,22 +47,19 @@ def fs2PWN():
                     hostname = 'Unknown (linux machine)'
                 else:
                     hostname = 'Unknown'
-            print('[-] IP: {}{} Hostname: {}'.format(subnet[0][:-1], ip, hostname))
+            print('[H] IP: {}{} Hostname: {}'.format(subnet[0][:-1], ip, hostname))
             for port in ports:
                 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 s.settimeout(0.5)
                 try:
                     con = s.connect(('{}{}'.format(subnet[0][:-1], ip), ports[port]))
-                    print("[-] {} {} open.".format(port, ports[port]))
+                    print("[P] {} {} open.".format(port, ports[port]))
                     con.close()
                 except:
                     pass
             hostup.append('{}{}'.format(subnet[0][:-1], ip))
-    print('[!] I found {} hosts up!'.format(len(hostup)))
+    print('[I] I found {} hosts up!'.format(len(hostup)))
     return hostup
 
 if __name__ == '__main__':
-    try:
-        fs2PWN()
-    except KeyboardInterrupt:
-        exit('[!] Quitting!')
+    fs2PWN()
