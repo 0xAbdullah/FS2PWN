@@ -26,9 +26,6 @@ You can donwload binary release file [FS2PWN.exe](https://github.com/0xAbdullah/
 [P] winRM 5985 open.
 [P] SMB 445 open.
 [P] MSSQL 1433 open.
-
-[H] IP: 10.10.11.28 Hostname: Unknown (linux machine)
-[P] HTTP 80 open.
 ...   ...   ...   ...
 
 ...   ...   ...   ...
