@@ -12,8 +12,7 @@ You can donwload binary release file [FS2PWN.exe](https://github.com/0xAbdullah/
 
 # Usage
 
-```
-FS2PWN.exe -t 10.10.11.0/24
+```FS2PWN.exe -t 10.10.11.0/24
 # FS2PWN | Coded by Abdullah AlZahrani https://github.com/0xAbdullah
 [*] Let's GO.
 
@@ -37,9 +36,7 @@ FS2PWN.exe -t 10.10.11.0/24
 [P] RDP 3389 open.
 [P] winRM 5985 open.
 [P] SMB 445 open.
-[I] I found 8 hosts up!
-
-```
+[I] I found 8 hosts up!```
 
 ### ToDo (Coming soon)
 ```
