@@ -13,7 +13,7 @@ You can donwload binary release file [FS2PWN.exe](https://github.com/0xAbdullah/
 # Usage
 
 ```
-PS C:\Temp> ./FS2PWN -t 10.10.11.0/24
+PS C:\Temp> ./FS2PWN.exe -t 10.10.11.0/24
 # FS2PWN | Coded by Abdullah AlZahrani https://github.com/0xAbdullah
 [*] Let's GO.
 
